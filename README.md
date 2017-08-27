@@ -1,5 +1,5 @@
 # AndroidResGuard
-anroid res guard
+
 ###使用步骤
 	1.将需要混淆的app放入src_apks文件目录下  
 	2.例外：在工程中全局查找getIdentifier方法，将这个方法前两个参数以key:value的形式写入config目录下的except_config文件  
