@@ -1,0 +1,4 @@
+#Lcom/tupo/test/TestSecondActivity;:activity
+#getResources().getIdentifier("name","drawable","xx.xxx.xx");
+
+name:drawable

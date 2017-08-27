@@ -1,0 +1,5 @@
+destpath:/Users/panxianrong/Desktop
+keystorefilepath:config/test.jks
+storepass:123456
+key:test
+keypass:123456
