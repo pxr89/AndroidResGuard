@@ -1,6 +1,7 @@
 # AndroidResGuard
 
 ###使用步骤
+
 	1.将需要混淆的app放入src_apks文件目录下  
 	2.因为有些资源文件是通过getIdentifier方法获取的，这些资源文件不能混淆，所以需要在app工程中全局查找getIdentifier方法，将这个方法前两个参数以key:value的形式写入config目录下的except_config文件  
 		注意：有些lib库中也会使用getIdentifier方法：比如友盟分享库等，也需要注意；  
