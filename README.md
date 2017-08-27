@@ -6,8 +6,7 @@
 	2.因为有些资源文件是通过getIdentifier方法获取的，这些资源文件不能混淆，所以需要在app工程中全局查找getIdentifier方法，将这个方法前两个参数以key:value的形式写入config目录下的except_config文件  
 		注意：有些lib库中也会使用getIdentifier方法：比如友盟分享库等，也需要注意；  
 		umenglib库已经做了特殊处理，包含umeng的都不混淆了  
-	3.config目录下的签名配置 sign_cinfig文件 
-	
+	3.config目录下的签名配置sign_cinfig文件,修改对应的签名配置即可
 		destpath:/Users/panxianrong/Desktop // apk的输出路径
 		keystorefilepath:config/test.jks	// 签名文件的路径
 		storepass:123456
